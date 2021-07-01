@@ -14,10 +14,6 @@ namespace BasicProgramming
             int year = Convert.ToInt32(Console.ReadLine());
 
             FindingLeapYear(year);
-
-
-
-
         }
         public static void FindingLeapYear(int year) 
         {

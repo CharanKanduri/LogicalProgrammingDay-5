@@ -16,7 +16,7 @@ namespace BasicProgramming
                     FindLeapYear.ReadInput();
                     break;
                 case 2:
-                    // code block
+                    FindFactors.ReadInput();
                     break;
 
                 case 3:
