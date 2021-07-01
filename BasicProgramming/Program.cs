@@ -20,11 +20,15 @@ namespace BasicProgramming
                     break;
 
                 case 3:
-                    // code block
+                    FindVowelOrConsonent.ReadInput();
+                    break;
+
+                case 4:
+                    LargerAmongThree.ReadInput();
                     break;
 
                 default:
-                    // code block
+                    Console.WriteLine("Enter Correct Choice");
                     break;
             }
 
