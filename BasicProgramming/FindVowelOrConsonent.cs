@@ -10,9 +10,16 @@ namespace BasicProgramming
     {
         public static void ReadInput()
         {
+
             Console.WriteLine("Enter the alphabet: ");
             char alphabet = Console.ReadKey().KeyChar;
             CharProperity(alphabet);
+
+
+             Console.WriteLine("Enter the alphabet: ");
+                char alphabet = Console.ReadKey().KeyChar;
+            CharProperity(alphabet);
+                
 
         }
 
@@ -23,11 +30,22 @@ namespace BasicProgramming
 
                 Console.WriteLine("\n" + ch + " is Vowel.");
 
+                Console.WriteLine("\n"+ch + " is Vowel.");
+
+
             }
             else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
             {
+
                 Console.WriteLine("\n" + ch + " is Consonant.");
             }
         }
+
+                Console.WriteLine("\n"+ch + " is Consonant.");
+            }
+        }
+
+
     }
 }
+
